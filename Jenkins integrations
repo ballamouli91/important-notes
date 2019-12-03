@@ -1,0 +1,10 @@
+##Jenkins
+deeploy to tomcat --> plugin use at postbuild "deploy to conatiner" --> before that need to provide credentials of tomcat user and passsword , URL (user must have tomcat deploy role)
+pipeline plugin , pipeline systax checker --> tells how to use pipeline, secrets via credentials 
+copy over ssh plugin for ansible,
+------------------------------------------- ansible with jenkins
+Install ansible plugin --> update path to executable in global tools --> Run ansible commands by specifying the paths for -p playbooks and -i hosts file
+Plugin publish Over SSH -- will copy , run commands,SCP - Send files over SSH ,SSH before 
+anage Jenkins" and then click on "Configure System"	--> add servers and public key
+
+Manage Jenkins > Configure System > Publish Over SSH > SSH Servers	
